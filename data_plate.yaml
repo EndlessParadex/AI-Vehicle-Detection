@@ -1,0 +1,13 @@
+train: dataset_yolo/dataset_plate_640_70-30/train/images
+val: dataset_yolo/dataset_plate_640_70-30/valid/images
+test: dataset_yolo/dataset_plate_640_70-30/test/images
+
+nc: 7
+names: ['plate-ev-black', 'plate-ev-white', 'plate-ev-yellow', 'plate-goverment', 'plate-ice-black', 'plate-ice-white', 'plate-public']
+
+roboflow:
+  workspace: policedetection
+  project: license-plate-wtcdf
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/policedetection/license-plate-wtcdf/dataset/2

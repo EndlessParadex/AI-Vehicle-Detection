@@ -1,0 +1,13 @@
+train: dataset_yolo/dataset_vehicle_640/train/images
+val: dataset_yolo/dataset_vehicle_640/valid/images
+test: dataset_yolo/dataset_vehicle_640/test/images
+
+nc: 4
+names: ['bus', 'car', 'motor', 'truck']
+
+roboflow:
+  workspace: policedetection
+  project: cars-2y0ec
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/policedetection/cars-2y0ec/dataset/4

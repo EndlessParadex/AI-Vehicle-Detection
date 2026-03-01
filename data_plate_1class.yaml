@@ -1,0 +1,13 @@
+train: C:/Kuliah/Semester_8/Dataset_YOLO/dataset_plate_1class/train/images
+val: C:/Kuliah/Semester_8/Dataset_YOLO/dataset_plate_1class/valid/images
+test: C:/Kuliah/Semester_8/Dataset_YOLO/dataset_plate_1class/test/images
+
+nc: 1
+names: ['vehicle_plate']
+
+roboflow:
+  workspace: ai-qdtou
+  project: licenses-plate
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-qdtou/licenses-plate/dataset/1
